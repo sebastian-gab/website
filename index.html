@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sebastian Gabor</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script defer src="app.js"></script>
 </head>
 <body>
@@ -13,22 +13,44 @@
             <img src="src/images/emoji.png" alt="Emoji">
         </div>
         <div class="menu">
-        <div class="wrapper-menu">
-            <div class="line-menu half start"></div>
-            <div class="line-menu"></div>
-            <div class="line-menu half end"></div>
+            <div id='menu-button'>
+                <div class="header__menu">
+                    <a id="header__button" class="hamburger" href="#">
+                      <div class="hamburger__inner"></div>
+                    </a>  
+                 </div>
+            </div>
+          <div class="menu-holder">
+            <ul class="menu-items">
+                <a href="#home"><img class="menu-img home" src="src/images/home.png" alt="Home">Home</a>
+                <a href="#about"><img class="menu-img" src="src/images/id-card.png" alt="About">About</a>
+                <a href="#work"><img class="menu-img" src="src/images/project.png" alt="Projects">Work</a>
+            </ul>
           </div>
         </div>
     </header>
     <main>
-        <div class="main">
+        <div id="home">
             <div>
                 <h1>Hello, I'm Sebastian</h1>
                 <p>Iasi, Romania</p>
                 <p>I am a technology lover with a strong interest in cloud computing.</p>
             </div>
         </div>
-        <div class="about"></div>
+        <div id="about">
+            <div class="about-sec1">
+                <h2>About</h2>
+                <img src="" alt="">
+            </div>
+            <div class="about-sec2">
+                <ul class="about-nav">
+                    <li>about me</li>
+                    <li>skills</li>
+                    <li>certs</li>
+                </ul>
+                <div></div>
+            </div>
+        </div>
     </main>
     <footer>
         <div class="footer">
